@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timothy Dry | Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href='css/style.css' />
+
+  </head>
+  <body>
+    <container class="fluid">
+      <!-- navbar -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+
+        </div>
+      </div>
+      <!-- end navbar -->
+      <!-- my apps section -->
+      <section>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <!-- start app card --->
+            <div ng-app="flip1" ng-controller="flipCtrl1">
+              <div class="flip">
+                <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
+                  <div class="face front">
+                    Hello World...
+                  </div>
+                  <div class="face back">
+                    Tim Was Here!
+                  </div>
+                </div>
+              </div>
+            </div> <!-- app card -->
+            <!-- start app card --->
+            <div ng-app="flip2" ng-controller="flipCtrl2">
+              <div class="flip">
+                <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
+                  <div class="face front">
+                    Hello World...
+                  </div>
+                  <div class="face back">
+                    Tim Was Here!
+                  </div>
+                </div>
+              </div>
+            </div> <!-- app card -->
+            <!-- start app card --->
+            <div ng-app="flip3" ng-controller="flipCtrl">
+              <div class="flip">
+                <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
+                  <div class="face front">
+                    Hello World...
+                  </div>
+                  <div class="face back">
+                    Tim Was Here!
+                  </div>
+                </div>
+              </div>
+            </div> <!-- app card -->
+          </div>
+        </div>
+      </section>
+      <!-- end my apps section -->
+    </container>
+
+    <footer class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+        <a id="me" href="https://timothy-dry.herokuapp.com"><h4>Copyright &copy; 2017 Timothy Dry</h4></a>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="java/app.js"></script>
+  </body>
+</html>
