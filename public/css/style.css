@@ -1,6 +1,13 @@
 body {
  background: #ccc;
 }
+.myapp-img {
+  height: 20vw;
+}
+span {
+  margin: 0vw 1vw 0vw 1vw;
+  font-size: 1.2vw;
+}
 .flip {
   -webkit-perspective: 800;
    width: 400px;
@@ -18,8 +25,8 @@ body {
   -webkit-transition: 0.5s;
 }
 .flip .card .face {
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 95%;
   position: absolute;
   -webkit-backface-visibility: hidden ;
   z-index: 2;

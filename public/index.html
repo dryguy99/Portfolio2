@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" href="images/favicon.ico">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,20 +31,29 @@
               <div class="flip">
                 <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
                   <div class="face front">
-                    Hello World...
+                    <img class="myapp-img" src="images/flashcard.jpeg" data-name="Flashcard Machine" data-link="https://flashcard-dryguy.herokuapp.com/" alt="Flashcard Machine">
                   </div>
                   <div class="face back">
-                    Tim Was Here!
+                    <h3>Notes:<br/>
+
+                    </blockquote>
+                      <span class="text-center">
+                        I designed this app to create flashcards to use as a study tool.
+                      </span><br/>
+                      <a href='https://flashcard-dryguy.herokuapp.com/' target="_blank">Open App</a>
+                    </h3>
                   </div>
                 </div>
               </div>
             </div> <!-- app card -->
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <!-- start app card --->
             <div ng-app="flip2" ng-controller="flipCtrl2">
               <div class="flip">
                 <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
                   <div class="face front">
-                    Hello World...
+                    <img class='myapp-img' src="images/rpsls.jpeg" data-name='Rock Paper Scissors Lizard Spock' data-link='https://rpsls-dryguy.herokuapp.com/' alt="Rock, Paper, Scissors, Lizard, Spock app">
                   </div>
                   <div class="face back">
                     Tim Was Here!
@@ -51,12 +61,14 @@
                 </div>
               </div>
             </div> <!-- app card -->
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <!-- start app card --->
             <div ng-app="flip3" ng-controller="flipCtrl">
               <div class="flip">
                 <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
                   <div class="face front">
-                    Hello World...
+                    <img class='myapp-img' src="images/hangman.jpeg" data-name='Movie Hangman' data-link="https://hangman-dryguy.herokuapp.com/" alt="Hangman">
                   </div>
                   <div class="face back">
                     Tim Was Here!
