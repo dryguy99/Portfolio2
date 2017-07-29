@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "nodemailer": "^4.0.1"
+  },
+  "name": "my-portfolio",
+  "version": "3.0.0",
+  "description": "My portfolio as a web developer.",
+  "main": "server.js",
+  "repository": "https://github.com/dryguy99/Portfolio2.git",
+  "author": "Timothy Dry <timothy.dry@verizon.net>",
+  "license": "MIT"
+}
