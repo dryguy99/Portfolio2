@@ -17,7 +17,7 @@ $(document).ready(function () {
       $('#email').val('');
       $('#name').val('');
       $('#message').val('');
-      $.post("http://localhost:8080/mymail", {name: name, email: email, message: message}, function(result){
+      $.post("http://www.timdry.net/mymail", {name: name, email: email, message: message}, function(result){
           startTimer = true;
           myVar = setInterval(alertFunc, 1000);
           $(".myresult").html(result);
