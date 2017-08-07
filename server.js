@@ -42,35 +42,11 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(methodOverride("_method"));
 
-// set up emailer =====================================================
-var transporter = nodemailer.createTransport({
-  service: 'AOL',
-  auth: {
-    user: 'timothy.dry@verizon.net',
-    pass: ''
-  }
-});
-
-var mailOptions = {
-  from: 'timothy.dry@verizon.net',
-  to: 'timothy.dry@verizon.net',
-  subject: 'sending message from my portfolio using node.js',
-  text: 'That was easy!'
-};
-
-transporter.sendMail(mailOptions, function(error, info){
-  if (error) {
-    console.log(error);
-  } else {
-    console.log('Email sent: ' + info.response);
-  }
-});
-
 // Routes =============================================================
 
 
 app.use('/', router);
-
+require('./routes/sendMail.js')(app);
 
 // Starting our express app
 app.listen(PORT, function() {

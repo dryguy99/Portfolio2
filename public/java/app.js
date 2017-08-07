@@ -4,7 +4,7 @@ app.controller('myCtrl', function($scope) {
 
   $scope.information = [
   {
-    src: "images/openfridge.jpeg",
+    src: "./images/openfridge.jpeg",
     dataname: "Open Fridge",
     datalink: "https://open-fridge.herokuapp.com/",
     alt: "Open Fridge App",
@@ -13,7 +13,7 @@ app.controller('myCtrl', function($scope) {
   },
 
   {
-   src: "images/flashcard.jpeg",
+   src: "./images/flashcard.jpeg",
    dataname: "Flashcard Machine",
    datalink: "https://flashcard-dryguy.herokuapp.com/",
    alt: "Flashcard Machine",
@@ -22,7 +22,7 @@ app.controller('myCtrl', function($scope) {
    },
 
    {
-     src: "images/trivia.jpeg",
+     src: "./images/trivia.jpeg",
      dataname: "Music Trivia",
      datalink: 'https://trivia-dryguy.herokuapp.com/',
      alt: "Music Trivia App",
@@ -31,7 +31,7 @@ app.controller('myCtrl', function($scope) {
    },
 
   {
-   src: "images/rpsls.jpeg",
+   src: "./images/rpsls.jpeg",
    dataname: 'Rock Paper Scissors Lizard Spock',
    datalink: 'https://rpsls-dryguy.herokuapp.com/',
    alt: "Rock, Paper, Scissors, Lizard, Spock app",
@@ -40,7 +40,7 @@ app.controller('myCtrl', function($scope) {
   },
 
   {
-   src: "images/hangman.jpeg",
+   src: "./images/hangman.jpeg",
    dataname: 'Movie Hangman',
    datalink: "https://hangman-dryguy.herokuapp.com/",
    alt: "Hangman",
@@ -49,7 +49,7 @@ app.controller('myCtrl', function($scope) {
  },
 
  {
-   src: "images/giphy.jpeg",
+   src: "./images/giphy.jpeg",
    dataname: 'Find Movie Moving Images',
    datalink: "https://giphy-dryguy.herokuapp.com/",
    alt: "Find moving images app",

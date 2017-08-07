@@ -21,7 +21,7 @@
   <body ng-app="myApp" class="myheader">
     <container class="fluid">
       <!-- navbar -->
-      <section>
+      <section class='navagation'>
         <div class="page-header">
           <h1 class='title'>Timothy Dry <small> Web Developer</small></h1>
         </div>
@@ -41,9 +41,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <!-- To DO: change href to onclick function -->
-                <li class="active"><a class='myappsection' href="#timsapps">My Apps<span class="sr-only">(current)</span></a></li>
-                <li><a class='aboutme' href="#aboutme">About Me</a></li>
-                <li><a class='contactme' href="#contactme">Contact</a></li>
+                <li class="active"><a class='mynav' value='myappsection'>My Apps<span class="sr-only">(current)</span></a></li>
+                <li><a class='mynav' value='aboutme'>About Me</a></li>
+                <li><a class='mynav' value='contactme'>Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -58,7 +58,7 @@
             <div class="flip">
               <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
                 <div class="face front">
-                  <img class="myapp-img" src={{dataset.src}} data-name={{dataset.dataname}} data-link={{dataset.datalink}} alt={{dataset.alt}}>
+                  <img class="myapp-img" ng-src={{dataset.src}} data-name={{dataset.dataname}} data-link={{dataset.datalink}} alt={{dataset.alt}}>
                 </div>
                 <div class="face back">
                   <h3><div id='note'>Notes:</div><br/>
@@ -199,25 +199,29 @@
           <div class='col-xs-12 col-sm-10 col-md-8 col-lg-6'>
             <h4 class=""><b>Contact Me</b></h4>
           <p>Want to meet with me? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-          <form name="contact_form" class="contactform " method="post" onsubmit="return validateForm()"  ><!--action="./assets/sendEmail.php"-->
+          <!-- set up contact form for node.js -->
+          <form name="contact_form" class="contactform ">
             <div class="input-group input-group-lg">
               <span class="input-group-addon" id="sizing-addon1">Name <i class="fa fa-user" aria-hidden="true"></i></span>
-              <input type="text" class="form-control" placeholder="John C. Smith" aria-describedby="sizing-addon1"/>
+              <input id='name' type="text" class="form-control" placeholder="John C. Smith" aria-describedby="sizing-addon1"/>
             </div>
             <div class="input-group input-group-lg">
               <span class="input-group-addon" id="sizing-addon1">Email <i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-              <input type="text" class="form-control" placeholder="example@gmail.com" aria-describedby="sizing-addon1"/>
+              <input id='email' type="text" class="form-control" placeholder="example@gmail.com" aria-describedby="sizing-addon1"/>
             </div>
             <div class="input-group input-group-lg">
-              <span class="input-group-addon" id="sizing-addon1">Message <i class="fa fa-comment-o" aria-hidden="true"></i></span>
-              <textarea>
-              </textarea>
+              <span class="input-group-addon" id="sizing-addon1">Message <i class="fa fa-comment-o" aria-hidden="true"></i><br/><span id='counter'>{{500-counter.length}}</span></span>
+              <textarea id='message' name='message'  maxlength='500' type="text" class="form-control" placeholder="Your message here." ng-model="counter" ng-trim="false"></textarea>
             </div>
             <br/>
-            <button id='submit' type="submit" class="">Send Message</button>
+            <div>
+              <button id='submit' type="submit" class='btn btn-primary btn-lg'>Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+              <span class='myresult'></span>
+            </div>
 
             <div class="g-recaptcha" style="margin-left:9.7vw" data-sitekey="6LcA8iYUAAAAANFAEtGIAhVZnhDnLzz8QaQSPpf3"></div>
           </form>
+          <!-- end of email form -->
               <div id="status"></div>
 
               <br/>
@@ -253,5 +257,6 @@
 
 
     <script src="java/app.js"></script>
+    <script src="java/form.js"></script>
   </body>
 </html>

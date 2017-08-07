@@ -30,6 +30,45 @@ span {
 .tech {
   font-size: 2vw;
 }
+#email::placeholder {
+  color: #0000cc;
+}
+#name::placeholder {
+  color: #0000cc;
+}
+#message::placeholder {
+  color: #0000cc;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #0000cc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #0000cc;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #0000cc;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #0000cc;
+  opacity: 1;
+}
+input#email, input#name {
+  background: white;
+}
+textarea#message {
+  height: 35vh;
+}
+#counter {
+  color: #0000cc;
+}
+.myresult {
+  display: none;
+  background: #e68a00;
+  color: white;
+  margin-left: 1vw;
+  padding: 1.3vw;
+}
 hr {
   margin-top: 0.5vw;
   margin-bottom: 0.5vw;
@@ -63,7 +102,7 @@ hr {
   color: white;
 }
 #submit {
-  color: black;
+  color: #ffffff;
 }
 .progress-bar {
   font-weight: 700;
