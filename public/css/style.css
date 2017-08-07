@@ -12,6 +12,9 @@ span {
 .title {
   margin-left: 2vw;
 }
+#mymessage {
+  font-size: 1.3vw;
+}
 .myheader {
   background: url('../images/paper_1.png');
 }

@@ -7,7 +7,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
-var nodemailer = require('nodemailer');
+
 // Sets up the Express App
 // =============================================================
 var app = express();
