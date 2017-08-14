@@ -241,16 +241,16 @@
               <textarea id='message' name='message'  maxlength='500' type="text" class="form-control" placeholder="Your message here." ng-model="counter" ng-trim="false"></textarea>
             </div>
             <br/>
-            <div>
-              <button id='submit' type="submit" class='btn btn-primary btn-lg'>Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-              <span class='myresult'></span>
-            </div>
+
 
             <!-- <div class="g-recaptcha" style="margin-left:9.7vw" data-sitekey="6LcA8iYUAAAAANFAEtGIAhVZnhDnLzz8QaQSPpf3"></div> -->
             <form action="?" method="POST">
               <div class="g-recaptcha" data-sitekey="6LcA8iYUAAAAANFAEtGIAhVZnhDnLzz8QaQSPpf3"></div>
               <br/>
-              <input type="submit" value="Submit">
+              <div>
+                <button id='submit' type="submit" class='btn btn-primary btn-lg'>Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <span class='myresult'></span>
+              </div>
             </form>
           </form>
           <!-- end of email form -->
