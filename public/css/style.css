@@ -1,9 +1,10 @@
 .myappsection {
- background: url('../images/dark-triangles.png');
+ background: #f2f2f2;
 }
 .myapp-img {
   width: 320px;
   height: 200px;
+  border-radius: 1.2vw;
 }
 span {
   margin: 0vw 1vw 0vw 1vw;
@@ -91,7 +92,7 @@ hr {
   background-color: blue;
   margin: 0.5vw;
 }
-#note {
+.note {
   text-align: left;
   text-decoration: underline;
   margin-left: 1vw;
@@ -114,7 +115,7 @@ hr {
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img, .myframe {
   height: 10vw;
 }
-#app-link {
+.app-link {
   margin-top: 1vw;
 }
 .navbar {
@@ -128,6 +129,7 @@ hr {
    height: 200px;
     position: relative;
     margin: 50px auto;
+    border-radius: 1.2vw;
 }
 
 .flip .card.flipped {
@@ -138,6 +140,7 @@ hr {
   height: 100%;
   -webkit-transform-style: preserve-3d;
   -webkit-transition: 0.5s;
+  border-radius: 1.2vw;
 }
 .flip .card .face {
   width: 100%;
@@ -149,17 +152,20 @@ hr {
     font-size: 3em;
     text-align: center;
     line-height: 200px;
+    border-radius: 1.2vw;
 }
 .flip .card .front {
   position: absolute;
   z-index: 1;
-    background: black;
-    color: white;
-    cursor: pointer;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 1.2vw;
 }
 .flip .card .back {
   -webkit-transform: rotatey(-180deg);
     background: url('../images/textured_paper.png');
     color: black;
     cursor: pointer;
+    border-radius: 1.2vw;
 }

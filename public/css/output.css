@@ -1,0 +1,80 @@
+.mytitle {
+  line-height: 1.0; }
+
+.appname {
+  padding-top: 45px;
+  font-size: 1.8vw;
+  font-weight: 700;
+  line-height: 1.2;
+  color: black;
+  z-index: 12; }
+
+.overlay {
+  position: relative;
+  top: -202px;
+  opacity: 0.9;
+  width: 320px;
+  height: 205px;
+  border-radius: 1.2vw; }
+
+#myappdesc {
+  font-size: 2vw;
+  color: #33334d;
+  padding: 1vw;
+  line-height: 0.9; }
+
+.description {
+  min-height: 16vw;
+  color: #33334d;
+  font-size: 1.2vw;
+  margin: 0vw 5vw 0vw 5vw;
+  border-radius: 2vw;
+  padding: 0.5vw 1vw 1vw 1vw;
+  line-height: 1.1; }
+
+.btn-lg {
+  padding: 1.0vw; }
+
+.btn-collapsible {
+  overflow: hidden;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  max-width: 40px; }
+  .btn-collapsible.btn-xs {
+    padding: 0px;
+    max-width: 25px; }
+  .btn-collapsible.btn-sm {
+    padding: 0.5vw;
+    max-width: 34px; }
+  .btn-collapsible.btn-lg {
+    padding: 1.0vw;
+    max-width: 50px; }
+  .btn-collapsible span {
+    opacity: 0;
+    text-indent: -6px;
+    display: inline-block;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out; }
+  .btn-collapsible:hover {
+    max-width: 300px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out; }
+    .btn-collapsible:hover span {
+      opacity: 1;
+      text-indent: 0px;
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+      -ms-transition: all 300ms ease-in-out;
+      -o-transition: all 300ms ease-in-out;
+      transition: all 300ms ease-in-out; }
+
+/*# sourceMappingURL=output.css.map */

@@ -4,57 +4,81 @@ app.controller('myCtrl', function($scope) {
 
   $scope.information = [
   {
-    src: "./images/openfridge.jpeg",
+    src: "./images/openfridge-BW.jpeg",
+    srcb: "./images/openfridge.jpeg",
     dataname: "Open Fridge",
     datalink: "https://open-fridge.herokuapp.com/",
     alt: "Open Fridge App",
     text: "Open Fridge helps keep track of what's is in your refridgerator & finds recipies with the ingredients on hand.",
-    datalinkname: 'Open Fridge'
+    datalinkname: 'Open Fridge',
+    info: 'For this app I coded the HTML/JS/jQuery for the acordian, modal, and wrote the JavaScript/jQuery that allows the page to select/delete an item in one section and have it appear/disapear in another.  I also coded much of the CSS. I coded Bootstrap classes & media queries to allow the app to display on any platform reguardless of screen size.',
+    color: "background : #66ff66;",
+    fawe: "fa fa-cutlery"
   },
 
   {
-   src: "./images/flashcard.jpeg",
+   src: "./images/flashcard-BW.jpeg",
+   srcb: "./images/flashcard.jpeg",
    dataname: "Flashcard Machine",
    datalink: "https://flashcard-dryguy.herokuapp.com/",
    alt: "Flashcard Machine",
    text: "I designed this app to create flashcards to use as a study tool.",
-   datalinkname: 'Use Flashcard Machine'
+   datalinkname: 'Flashcard Machine',
+   info: "I wrote the NodeJS server for this app and wrote the scheema and routes for the MySQL database running on the backend.  I intend to expand the interface to handle any topic the user requires and setup a login for their personal cards to make it more useful.",
+   color: "background : #cc33ff;",
+   fawe: 'fa fa-trophy'
    },
 
    {
-     src: "./images/trivia.jpeg",
+     src: "./images/trivia-BW.jpeg",
+     srcb: "./images/trivia.jpeg",
      dataname: "Music Trivia",
      datalink: 'https://trivia-dryguy.herokuapp.com/',
      alt: "Music Trivia App",
      text: "I designed to set timers to control gameplay. Once started, Gameplay continues until time expires.",
-     datalinkname: 'Play Music Trivia'
+     datalinkname: 'Music Trivia',
+     info: "This app is a fun game I built to show off timers and music effects.  It is built with HTML, Javascript, jQuery, Bootstrap & CSS.",
+     color: "background : #00ffff;",
+     fawe: 'fa fa-music'
    },
 
   {
-   src: "./images/rpsls.jpeg",
-   dataname: 'Rock Paper Scissors Lizard Spock',
+   src: "./images/rpsls-BW.jpeg",
+   srcb: "./images/rpsls.jpeg",
+   dataname: 'R P S L S',
    datalink: 'https://rpsls-dryguy.herokuapp.com/',
    alt: "Rock, Paper, Scissors, Lizard, Spock app",
-   text: "I designed this app as a multiplayer game backed with Google's firebase.",
-   datalinkname: 'Rock, Paper, Scissors, Lizard, Spock'
+   text: "",
+   datalinkname: 'Rock, Paper, Scissors, Lizard, Spock',
+   info: "I built this game because I was told I couldn't do it.  It makes good use of Firebase for login and gameplay.  I built it with Javascript, jQuery, AJAX, HTML, CSS & Bootstrap.",
+   color: "background : #ff9933;",
+   fawe: 'fa fa-hand-spock-o'
   },
 
   {
-   src: "./images/hangman.jpeg",
-   dataname: 'Movie Hangman',
+   src: "./images/hangman-BW.jpeg",
+   srcb: "./images/hangman.jpeg",
+   dataname: 'Hangman',
    datalink: "https://hangman-dryguy.herokuapp.com/",
    alt: "Hangman",
    text: "I designed this app as a fun, interactive game that may be played on almost any device.",
-   datalinkname: 'Play Hangman'
+   datalinkname: 'Hangman',
+   info: "I built this web app for my daughters to play on their phones.  I used Adobe Illustrator to customize the graphics.  Bootstrap makes it scaleable.  Javascript/jQuery provide the logic to display the game.",
+   color: "background : #ffff00;",
+   fawe: 'fa fa-film'
  },
 
  {
-   src: "./images/giphy.jpeg",
-   dataname: 'Find Movie Moving Images',
+   src: "./images/giphy-BW.jpeg",
+   srcb: "./images/giphy.jpeg",
+   dataname: "Giphy's",
    datalink: "https://giphy-dryguy.herokuapp.com/",
    alt: "Find moving images app",
    text: "I used jQuery and AJAX to create a fun movie app.",
-   datalinkname: 'Find Movie Moving Images'
+   datalinkname: "Find Movie Giphy's",
+   info: "I built this app to access the Giphy Rest API.  It allows me to quickly find Giffs on any topic I input, which is very helpful to me as a developer.",
+   color: "background : #ff0000;",
+   fawe: 'fa fa-picture-o'
  }
 
 ];

@@ -7,11 +7,13 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
+var fs = require('fs');
+// const spdy = require('spdy');
 
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = process.env.PORT || 8080;
+var port = process.env.PORT || 8080;
 var router = express.Router();// get an instance of the express Router
 // fix cors errors
 var allowCrossDomain = function(req, res, next) {
@@ -27,6 +29,16 @@ var allowCrossDomain = function(req, res, next) {
     }
 };
 app.use(allowCrossDomain);
+// app.get('*', (req, res) => {
+//     res
+//       .status(200)
+//       //.json({message: 'ok'})
+// })
+// const options = {
+//     key: fs.readFileSync(__dirname + '/http2/server.key'),
+//     cert:  fs.readFileSync(__dirname + '/http2/server.crt')
+// }
+
 // middleware to use for all requests
 router.use(function(req, res, next) {
     // do logging
@@ -34,7 +46,7 @@ router.use(function(req, res, next) {
     next();
 });
 
-router.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -47,8 +59,17 @@ app.use(methodOverride("_method"));
 
 app.use('/', router);
 require('./routes/sendMail.js')(app);
-
-// Starting our express app
-app.listen(PORT, function() {
-	 console.log("App listening on PORT " + PORT);
+// spdy
+//   .createServer(options, app)
+//   .listen(port, (error) => {
+//     if (error) {
+//       console.error(error)
+//       return process.exit(1)
+//     } else {
+//       console.log('Listening on port: ' + port + '.')
+//     }
+//   });
+//Starting our express app
+app.listen(port, function() {
+	 console.log("App listening on PORT " + port);
 });

@@ -1,0 +1,78 @@
+$appFontColor: #33334d;
+
+@mixin transition($settings) {
+  -webkit-transition: $settings;
+  -moz-transition: $settings;
+  -ms-transition: $settings;
+  -o-transition: $settings;
+  transition: $settings;
+}
+.mytitle {
+  line-height: 1.0;
+}
+.appname {
+  padding-top: 45px;
+  font-size: 1.8vw;
+  font-weight: 700;
+  line-height: 1.2;
+  color: black;
+  z-index: 12;
+}
+.overlay{
+  position: relative;
+  top: -202px;
+  opacity: 0.9;
+  width: 320px;
+  height: 205px;
+  border-radius: 1.2vw;
+}
+#myappdesc {
+  font-size: 2vw;
+  color: $appFontColor;
+  padding: 1vw;
+  line-height: 0.9;
+}
+.description {
+  min-height: 16vw;
+  color: $appFontColor;
+  font-size:1.2vw;
+  margin: 0vw 5vw 0vw 5vw;
+  border-radius: 2vw;
+  padding: 0.5vw 1vw 1vw 1vw;
+  line-height: 1.1;
+}
+.btn-lg {
+  padding: 1.0vw;
+}
+.btn-collapsible {
+  overflow: hidden;
+  @include transition(all 500ms ease-in-out);
+  max-width: 40px;
+  &.btn-xs {
+    padding: 0px;
+    max-width: 25px;
+  }
+  &.btn-sm {
+    padding: 0.5vw;
+    max-width: 34px;
+  }
+  &.btn-lg {
+    padding: 1.0vw;
+    max-width: 50px;
+  }
+  span {
+    opacity: 0;
+    text-indent: -6px;
+    display: inline-block;
+    @include transition(all 500ms ease-in-out);
+  }
+  &:hover {
+    max-width: 300px;
+    @include transition(all 300ms ease-in-out);
+    span {
+      opacity: 1;
+      text-indent: 0px;
+      @include transition(all 300ms ease-in-out);
+    }
+  }
+}
