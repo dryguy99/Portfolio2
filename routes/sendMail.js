@@ -1,8 +1,8 @@
 var nodemailer = require('nodemailer');
 var psswrd = require('../config/setup.js');
-var recaptcha = require('express-recaptcha');
+// var recaptcha = require('express-recaptcha');
 
-recaptcha.init('6LcA8iYUAAAAANFAEtGIAhVZnhDnLzz8QaQSPpf3', '6LcA8iYUAAAAACnigGbjlPLqzc-hzgpajDPR7Jdt');
+// recaptcha.init('6LcA8iYUAAAAANFAEtGIAhVZnhDnLzz8QaQSPpf3', '6LcA8iYUAAAAACnigGbjlPLqzc-hzgpajDPR7Jdt');
 function sendMail(app) {
 // set up emailer =====================================================
 app.post('/mymail', function(req, res) {
