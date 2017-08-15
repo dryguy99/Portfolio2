@@ -8,6 +8,12 @@ $appFontColor: #33334d;
   -o-transition: $settings;
   transition: $settings;
 }
+.bio {
+  font-size: 2vw;
+}
+.bio1 {
+  font-size: 2.5vw;
+}
 .mytitle {
   line-height: 1.0;
   color: #7575a3;
@@ -89,8 +95,28 @@ $appFontColor: #33334d;
     }
   }
 }
-
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+  border-radius: 0;
+}
+#counter {
+  color: #0000cc;
+}
 @media screen and (max-width: 499px) {
+  #mymessage {
+    font-size: 4.0vw;
+  }
+  .bio {
+    font-size: 2.8vw;
+  }
+  .bio1 {
+    font-size: 3.8vw;
+  }
+  #counter {
+    font-size: 4.5vw;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img, .myframe {
+    height: 20vw;
+  }
   p#myappdesc {
     font-size: 5vw;
   }
@@ -108,6 +134,21 @@ $appFontColor: #33334d;
   }
 }
 @media screen and (max-width: 900px) and (min-width: 500px) {
+  #mymessage {
+    font-size: 3.0vw;
+  }
+  .bio {
+    font-size: 2.5vw;
+  }
+  .bio1 {
+    font-size: 3.1vw;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img, .myframe {
+    height: 15vw;
+  }
+  #counter {
+    font-size: 3.5vw;
+  }
   p#myappdesc {
     font-size: 4vw;
   }
@@ -126,6 +167,15 @@ $appFontColor: #33334d;
   }
 }
 @media screen and (max-width: 1400px) and (min-width: 901px) {
+  #mymessage {
+    font-size: 1.9vw;
+  }
+  #counter {
+    font-size: 2.0vw;
+  }
+  .myframe {
+    height: 20vw;
+  }
   p#myappdesc {
     font-size: 3.0vw;
   }
