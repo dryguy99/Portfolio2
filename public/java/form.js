@@ -59,9 +59,8 @@ function myStopFunction() {
   $(".myresult").css('display', 'none');
 }
 //////////////////////////////////////////////////////////////
-//stop alert
+//validate form
 function validateForm(name, email, message){
-  console.log(!(email.includes('@')))
   if (name.length < 2) {
     startTimer = true;
     myVar = setInterval(alertFunc, 1000);
