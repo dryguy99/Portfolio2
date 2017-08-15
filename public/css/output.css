@@ -22,7 +22,11 @@
   height: 205px;
   border-radius: 1.2vw; }
 
+.sitedesc {
+  font-family: 'Prosto One', cursive; }
+
 #myappdesc {
+  font-family: 'Prosto One', cursive;
   font-size: 2vw;
   color: #33334d;
   padding: 1vw;
