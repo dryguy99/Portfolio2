@@ -2,6 +2,7 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "express-recaptcha": "^2.2.0",
     "mapbox-gl": "^0.39.1",
     "method-override": "^2.3.9",
     "nodemailer": "^4.0.1",
