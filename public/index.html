@@ -66,7 +66,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center" ng-repeat="dataset in information">
             <!-- start app card --->
-            <a class="applink" href={{dataset.datalink}} target="_blank" rel="noopener"><h3 class="mytitle">{{dataset.datalinkname}}</h3></a>
+            <a class="applink mytitle" href={{dataset.datalink}} target="_blank" rel="noopener"><h3 class="mytitle">{{dataset.datalinkname}}</h3></a>
             <div class="flip">
               <div class="card" ng-class="{'flipped':isFlipped}" ng-click="isFlipped=!isFlipped">
                 <div class="face front">
@@ -282,7 +282,7 @@
 
     <footer class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-        <a id="me" href="http://www.timdry.net"><h4>Copyright &copy; 2017 Timothy Dry</h4></a>
+        <a id="me" class="mytitle" href="http://www.timdry.net"><h4>Copyright &copy; 2017 Timothy Dry</h4></a>
       </div>
     </footer>
 

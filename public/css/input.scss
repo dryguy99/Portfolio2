@@ -1,5 +1,6 @@
 $appFontColor: #33334d;
 
+
 @mixin transition($settings) {
   -webkit-transition: $settings;
   -moz-transition: $settings;
@@ -9,6 +10,11 @@ $appFontColor: #33334d;
 }
 .mytitle {
   line-height: 1.0;
+  color: #9494b8;
+}
+.mytitle:hover {
+  text-decoration: none;
+  color: #33334d;
 }
 .appname {
   padding-top: 45px;
