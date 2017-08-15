@@ -11,7 +11,7 @@ app.controller('myCtrl', function($scope) {
     alt: "Open Fridge App",
     text: "Open Fridge helps keep track of what's is in your refridgerator & finds recipies with the ingredients on hand.",
     datalinkname: 'Open Fridge',
-    info: 'For this app I coded the HTML/JS/jQuery for the acordian, modal, and wrote the JavaScript/jQuery that allows the page to select/delete an item in one section and have it appear/disapear in another.  I also coded much of the CSS. I coded Bootstrap classes & media queries to allow the app to display on any platform reguardless of screen size.',
+    info: 'This app was a group project. I coded the HTML/JS/jQuery for the acordian, modal, and wrote the JavaScript/jQuery that allows the page to select/delete an item in one section and have it appear/disapear in another. I also made it usable on any device.',
     color: "background : #66ff66;",
     fawe: "fa fa-cutlery"
   },
@@ -24,7 +24,7 @@ app.controller('myCtrl', function($scope) {
    alt: "Flashcard Machine",
    text: "I designed this app to create flashcards to use as a study tool.",
    datalinkname: 'Flashcard Machine',
-   info: "I wrote the NodeJS server for this app and wrote the scheema and routes for the MySQL database running on the backend.  I intend to expand the interface to handle any topic the user requires and setup a login for their personal cards to make it more useful.",
+   info: "This app is built as a study helper.  I wrote the NodeJS server for this app and wrote the scheema and routes for the MySQL database running on the backend.  I intend to setup a login in the future to make the cards more useful and personal.",
    color: "background : #cc33ff;",
    fawe: 'fa fa-trophy'
    },
@@ -76,7 +76,7 @@ app.controller('myCtrl', function($scope) {
    alt: "Find moving images app",
    text: "I used jQuery and AJAX to create a fun movie app.",
    datalinkname: "Find Movie Giphy's",
-   info: "I built this app to access the Giphy Rest API.  It allows me to quickly find Giffs on any topic I input, which is very helpful to me as a developer.",
+   info: "I built this app to access the Giphy Rest API quickly in a clean, searchable interface.",
    color: "background : #ff0000;",
    fawe: 'fa fa-picture-o'
  }
