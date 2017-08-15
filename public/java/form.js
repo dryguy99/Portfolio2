@@ -42,10 +42,10 @@ function alertFunc() {
   var seconds = d.getSeconds();
   if (startTimer) {
     startTimer = false;
-    if (parseInt(seconds) > 55) {
-      tempTime = parseInt(seconds) - 60 + 4;
+    if (parseInt(seconds) > 54) {
+      tempTime = parseInt(seconds) - 60 + 5;
     } else{
-      tempTime = parseInt(seconds) + 4;
+      tempTime = parseInt(seconds) + 5;
     }
   } else if (tempTime <= parseInt(seconds)){
     myStopFunction();
