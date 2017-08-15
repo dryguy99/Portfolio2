@@ -11,7 +11,7 @@ app.controller('myCtrl', function($scope) {
     alt: "Open Fridge App",
     text: "Open Fridge helps keep track of what's is in your refridgerator & finds recipies with the ingredients on hand.",
     datalinkname: 'Open Fridge',
-    info: 'This app was a group project. I coded the HTML/JS/jQuery for the acordian, modal, and wrote the JavaScript/jQuery that allows the page to select/delete an item in one section and have it appear/disapear in another. I also made it usable on any device.',
+    info: 'This app was a group project. I coded the HTML/JS/jQuery for the accordian, modal, and wrote the JavaScript/jQuery that allows the page to select/delete an item in one section and have it appear/disapear in another. I also made it usable on any device.',
     color: "background : #66ff66;",
     fawe: "fa fa-cutlery"
   },
@@ -24,7 +24,7 @@ app.controller('myCtrl', function($scope) {
    alt: "Flashcard Machine",
    text: "I designed this app to create flashcards to use as a study tool.",
    datalinkname: 'Flashcard Machine',
-   info: "This app is built as a study helper.  I wrote the NodeJS server for this app and wrote the scheema and routes for the MySQL database running on the backend.  I intend to setup a login in the future to make the cards more useful and personal.",
+   info: "This app is built as a study helper.  I wrote the NodeJS server for this app and wrote the scheema and routes for the MySQL database running on the back end.  I intend to setup a login in the future to make the cards more useful and personal.",
    color: "background : #cc33ff;",
    fawe: 'fa fa-trophy'
    },
