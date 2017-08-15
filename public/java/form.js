@@ -5,6 +5,7 @@ var tempTime = 0;
 var validate = false;
 
 $(document).ready(function () {
+  $('#mystart').addClass("dark");
   $('#aboutme').css('display', 'none');
   $('#contactme').css('display', 'none');
   $(document).on('click', '#submit', function () {
@@ -26,6 +27,8 @@ $(document).ready(function () {
   });
   $(document).on('click', '.mynav', function () {
     var myChoice = $(this).attr('value');
+    $(this).parent().addClass("dark");
+    $(this).parent().siblings().removeClass("dark");
     $("." + myChoice).css('display', "block");
     $("." + myChoice).siblings().css('display', 'none');
     $('.navagation').css('display', 'block');

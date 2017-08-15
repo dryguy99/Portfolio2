@@ -16,6 +16,9 @@ $appFontColor: #33334d;
   text-decoration: none;
   color: #33334d;
 }
+.dark {
+  background-color: #d1d1e0;
+}
 .appname {
   padding-top: 45px;
   font-size: 1.8vw;
@@ -85,4 +88,61 @@ $appFontColor: #33334d;
       @include transition(all 300ms ease-in-out);
     }
   }
+}
+
+@media screen and (max-width: 499px) {
+  p#myappdesc {
+    font-size: 5vw;
+  }
+ .sitedesc {
+    font-size: 3.3vw;
+  }
+  .appname {
+    font-size: 7vw;
+  }
+  .description {
+    font-size: 3.9vw;
+  }
+  .nav>li>a {
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 500px) {
+  p#myappdesc {
+    font-size: 4vw;
+  }
+ .sitedesc {
+    font-size: 2.6vw;
+  }
+  .appname {
+    padding-top: 35px;
+    font-size: 4.5vw;
+  }
+  .description {
+    font-size: 2.6vw;
+  }
+  .nav>li>a {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 901px) {
+  p#myappdesc {
+    font-size: 3.0vw;
+  }
+ .sitedesc {
+    font-size: 2.4vw;
+  }
+  .appname {
+    padding-top: 40px;
+    font-size: 2.8vw;
+  }
+  .description {
+    font-size: 2.0vw;
+  }
+  .nav>li>a {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 1401px) {
+
 }
