@@ -106,7 +106,7 @@
     padding-top: 65vw; }
 
   #aboutme {
-    padding-top: 65vw; }
+    padding-top: 55vw; }
 
   h1 small {
     font-size: 50%; }
@@ -148,7 +148,7 @@
     padding-top: 38vw; } }
 @media screen and (max-width: 620px) and (min-width: 500px) {
   #aboutme {
-    padding-top: 45vw; } }
+    padding-top: 60vw; } }
 @media screen and (max-width: 600px) and (min-width: 500px) {
   .myappsection {
     padding-top: 52vw; } }
