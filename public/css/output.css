@@ -1,3 +1,9 @@
+a {
+  cursor: pointer; }
+
+a.thumbnail.contactme {
+  background: none; }
+
 .bio {
   font-size: 2vw; }
 
@@ -16,6 +22,7 @@
   background-color: #cccccc; }
 
 .appname {
+  cursor: default;
   padding-top: 45px;
   font-size: 1.8vw;
   font-weight: 700;

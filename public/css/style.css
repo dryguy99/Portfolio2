@@ -133,6 +133,7 @@ hr {
   -webkit-transform: rotatey(-180deg);
 }
 .flip .card {
+  cursor: default;
   width: 100%;
   height: 100%;
   -webkit-transform-style: preserve-3d;
@@ -140,6 +141,7 @@ hr {
   border-radius: 1.2vw;
 }
 .flip .card .face {
+  cursor: default;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -152,17 +154,17 @@ hr {
     border-radius: 1.2vw;
 }
 .flip .card .front {
+  cursor: default;
   position: absolute;
   z-index: 1;
   background: black;
   color: white;
-  cursor: pointer;
   border-radius: 1.2vw;
 }
 .flip .card .back {
   -webkit-transform: rotatey(-180deg);
     background: url('../images/textured_paper.png');
     color: black;
-    cursor: pointer;
+    cursor: default;
     border-radius: 1.2vw;
 }

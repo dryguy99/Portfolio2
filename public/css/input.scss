@@ -8,6 +8,12 @@ $appFontColor: #33334d;
   -o-transition: $settings;
   transition: $settings;
 }
+a {
+  cursor: pointer;
+}
+a.thumbnail.contactme {
+  background: none;
+}
 .bio {
   font-size: 2vw;
 }
@@ -26,6 +32,7 @@ $appFontColor: #33334d;
   background-color: #cccccc;
 }
 .appname {
+  cursor: default;
   padding-top: 45px;
   font-size: 1.8vw;
   font-weight: 700;
