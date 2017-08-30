@@ -109,6 +109,9 @@ a.thumbnail.contactme {
   color: #0000cc; }
 
 @media screen and (max-width: 499px) {
+  a.applink {
+    font-size: 4.5vw; }
+
   #contactme {
     padding-top: 65vw; }
 
@@ -175,6 +178,9 @@ a.thumbnail.contactme {
   #contactme {
     padding-top: 54vw; } }
 @media screen and (max-width: 900px) and (min-width: 500px) {
+  a.applink {
+    font-size: 3vw; }
+
   #mymessage {
     font-size: 3.0vw; }
 
