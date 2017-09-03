@@ -119,9 +119,9 @@ hr {
 }
 a.app-mylink {
   color: #574d57;
-  background: #f2f2f2;
+  background: #ffffb3;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .navbar {
   margin-bottom: 0;
