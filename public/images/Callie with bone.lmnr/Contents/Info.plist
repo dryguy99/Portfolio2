@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.luminar.lmnr</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>documentbundle</string>
+	<key>CFBundlePackageType</key>
+	<string>LMNR</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.2</string>
+	<key>CFBundleVersion</key>
+	<string>4749</string>
+	<key>MPDeleteOrigResourcesFromDocument</key>
+	<false/>
+	<key>MPHistoryDict</key>
+	<dict>
+		<key>cachedTexturesBookmarksDict</key>
+		<dict/>
+		<key>cachedTexturesDict</key>
+		<dict>
+			<key>/Users/dryguy/Pictures/Photos Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/jh2RxBrMTqmb6qHRisGaIg/IMG_4832.JPG</key>
+			<string>87B89F4B-A367-4BDB-909D-CB5ACBE476B5.JPG</string>
+		</dict>
+		<key>currentLevelOfHistory</key>
+		<integer>11</integer>
+		<key>historyDicts</key>
+		<array>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Automatic Color Enhancer: Activated</string>
+				<key>uuid</key>
+				<string>EBFE1900-D086-4957-A0C2-A38EE9423E85</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Dreamy Days: Activated</string>
+				<key>uuid</key>
+				<string>F9100152-F7E8-4464-AECB-96FB62B8CEA2</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Golden Sunset: Activated</string>
+				<key>uuid</key>
+				<string>A7AE824A-FF52-4F92-A933-14B8B2BB80C0</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Automatic Color Enhancer: Activated</string>
+				<key>uuid</key>
+				<string>B15970BB-5ABB-4AFF-AE39-DE358FD2900F</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Beginning of the Fall: Activated</string>
+				<key>uuid</key>
+				<string>080B9339-C906-4532-BFCA-690F6CB18336</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Layer 0: Opacity</string>
+				<key>additionalInfo</key>
+				<string>+100</string>
+				<key>uuid</key>
+				<string>C9951416-FDAD-477C-AEE9-D52BB83D107B</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Crisp &amp; Vivid: Activated</string>
+				<key>uuid</key>
+				<string>EFF1EEF8-34F2-4A82-9192-73576BBF7864</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Happy Holidays: Activated</string>
+				<key>uuid</key>
+				<string>245F64AD-CCCF-43BA-B169-CAE1F1211A36</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Haze Remover: Activated</string>
+				<key>uuid</key>
+				<string>2D78403E-D761-4949-B9C2-5EDAB3D3FAB3</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Preset Happy Holidays: Activated</string>
+				<key>uuid</key>
+				<string>D4C04634-54F8-4937-BD25-33154AB4A5DD</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>Crop: Apply</string>
+				<key>uuid</key>
+				<string>6F1A2753-3086-4F28-B307-743D0E50A632</string>
+			</dict>
+			<dict>
+				<key>actionName</key>
+				<string>--FORCE SAVE--</string>
+				<key>uuid</key>
+				<string>18F24A74-ED10-40F8-8F5F-7C5022D30EF4</string>
+			</dict>
+		</array>
+	</dict>
+	<key>MPOriginalImagePath</key>
+	<string>/Users/dryguy/Pictures/Photos Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/jh2RxBrMTqmb6qHRisGaIg/IMG_4832.JPG</string>
+	<key>MPQuickLookThumbnailSize</key>
+	<string>{1500, 1200}</string>
+	<key>MPSaveHistoryToDocument</key>
+	<true/>
+</dict>
+</plist>

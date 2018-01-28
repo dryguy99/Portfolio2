@@ -1,6 +1,8 @@
 .myappsection {
-  padding-top: 8vw;
- background: #ffffff;
+  padding-top: 0;
+  margin: 0;
+  width: 100vw;
+ background: url('../images/Sourlands_with_dogs.jpeg');
 }
 .myapp-img {
   width: 320px;
